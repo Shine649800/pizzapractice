@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="container">
+    <div class="content">
+        <h1>Pizza Hut</h1>
+        <form>
+            <fieldset>
+                <legend>Customer:</legend>
+                <div class="row">
+                    <div>
+                        <label for="firstname">First</label>
+                        <input id="firstname" name="first_name" type="text">
+                    </div>
+                    <div>
+                        <label for="lastname">Last</label>
+                        <input id="lastname" name="last_name" type="text">
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Size:</legend>
+                    <div class="row">
+                        <div>
+                            <input type="radio" id="small" name="size">
+                            <label for="small">Small</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="Medium" name="size">
+                            <label for="Medium">Medium</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="Large" name="size">
+                            <label for="Large">Large</label>
+                        </div>
+                    </div>
+            </fieldset>
+            <fieldset>
+                <legend>Toppings:</legend>
+                <div class="row">
+                <div>
+                    <input type="checkbox" id="pepperoni" name="pepperoni" value="pepperoni">
+                    <label for="pepperoni">Pepperoni</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="ham" name="ham" value="ham">
+                    <label for="ham">Ham</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="bacon" name="bacon" value="bacon">
+                    <label for="bacon">Bacon</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="mushroom" name="mushroom" value="mushroom">
+                    <label for="mushroom">Mushrooms</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="olive" name="olive" value="olive">
+                    <label for="olive">Olives</label>
+
+                </div>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Specials</legend>
+                <div class="row">
+                <label for="container">Please Choose One</label>
+                <select name="container" id="container">
+                    <option value="no">None</option>
+                    <option value="cheese">Extra Cheese</option>
+                    <option value="meatLover">Meat Lover Special</option>
+                    <option value="veggies">Vegan Friendly</option>
+                </select>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>
+</body>
+</html>
